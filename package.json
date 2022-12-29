@@ -1,0 +1,14 @@
+{
+  "name": "medical-schedule",
+  "version": "1.0.0",
+  "description": "Application that simulates a complete medical schedule management.",
+  "main": "script.js",
+  "scripts": {
+    "start": "tsc && open index.html"
+  },
+  "author": "Will Pedroso",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

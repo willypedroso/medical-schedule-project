@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>MEDICAL SCHEDULE</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+    <header>
+	<h1>Medical Schedule</h1>
+    </header>
+    <p id="text">Chosse a filter:</p>
+    <main>
+        <select id='option'onChange='show()'>
+	    <option value='' selected>Options</option>
+	    <option value='all'>Show All</option>
+	    <option value='doctor'>Doctors</option>
+	    <option value='specialty'>Specialtys</option>
+	    <option value='days'>Week Days</option>
+        </select>
+        <div id='res'></div>
+    </main>
+<body>
+</body>
+<script src="script.js"></script>
+</html>
