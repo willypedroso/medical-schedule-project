@@ -1,7 +1,6 @@
 body {
     text-align: center;
     font-family: verdana, sans-serif;
-    /*background-color: #99bfff;*/
     background-image: linear-gradient(rgb(178, 178, 239), rgb(15, 104, 133));
     background-attachment: fixed;
     height: 98vh;
@@ -13,7 +12,7 @@ header img {
     border: 2px black solid;
     padding: 10px;
     border-radius: 10px;
-    margin: 10px 0px -10px 0px;
+    margin: 15px 0px -10px 0px;
 }
 
 header h1 {
@@ -60,7 +59,7 @@ li {
 }
 
 footer {
-    margin-top: 15px;
+    padding: 15px;
 }
 
 footer a {
