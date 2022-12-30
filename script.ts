@@ -216,11 +216,11 @@ window.onload = function() {
 	} else if (option.value == 'days') {
 	    res.innerHTML = `<select id='option4' onchange='days()'>
 				<option value='' selected disabled hidden>Selecione</option>
-				<option value='monday'>monday</option>
-				<option value='tuesday'>Terça</option>
-				<option value='wednesday'>wednesday</option>
-				<option value='thursday'>thursday</option>
-				<option value='friday'>friday</option>
+				<option value='monday'>Monday</option>
+				<option value='tuesday'>Tuesday</option>
+				<option value='wednesday'>Wednesday</option>
+				<option value='thursday'>Thursday</option>
+				<option value='friday'>Friday</option>
 			     </select>`;
 	}
     }
@@ -243,7 +243,7 @@ window.onload = function() {
 	if(option3.value == '') {
 	    alert("Select an option.");
 	} else {
-	var specialtydoc = doctors.filter(doc => doc.specialty.includes(option3.value.toUpperCase()));
+	var specialtydoc = doctors.filter(doc => doc.specialty.includes(option3.value));
 	res.innerHTML = `<select id='option3' onchange='specialtys()'>
 				<option value='' selected disabled hidden>Selecione</option>
 				<option value='Acupuncture'>Acupuncture</option>

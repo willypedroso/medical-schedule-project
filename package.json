@@ -4,7 +4,7 @@
   "description": "Application that simulates a complete medical schedule management.",
   "main": "script.js",
   "scripts": {
-    "start": "tsc && open index.html"
+    "start": "tsc && open index.html || start index.html || ./index.html"
   },
   "author": "Will Pedroso",
   "license": "ISC",

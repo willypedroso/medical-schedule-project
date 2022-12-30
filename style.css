@@ -2,17 +2,22 @@ body {
     text-align: center;
     font-family: verdana, sans-serif;
     /*background-color: #99bfff;*/
-    background-image: linear-gradient(darkblue, lightblue);
+    background-image: linear-gradient(rgb(178, 178, 239), rgb(15, 104, 133));
     background-attachment: fixed;
     height: 98vh;
-    color: white;
+    color: black;
 }
 
 header img {
     height: 100px;
     border: 2px black solid;
+    padding: 10px;
     border-radius: 10px;
     margin: 10px 0px -10px 0px;
+}
+
+header h1 {
+    text-shadow: 2px 2px white;
 }
 
 #text {
@@ -52,4 +57,18 @@ li {
 
 .btn3 {
     margin-top: 5px;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
